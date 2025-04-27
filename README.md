@@ -8,7 +8,7 @@ The VAE and GMM are trained mutually in iterations: the VAE learns better repres
 
 ## 🔗 Full Project Report
 
-The full explanation, background, methodology, and results are available in the [Final Project Report](./report.pdf).
+The full explanation, background, methodology, and results are available in the [Final Project Report](./DGM_final_project___VAE_with_latent_clustering_using_GMM.pdf).
 
 ---
 
