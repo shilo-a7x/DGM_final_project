@@ -9,7 +9,7 @@ import os
 import models
 
 TRAIN_FLAG = True
-mutual_iteration = 3
+mutual_iteration = 2
 VAE_interations = 50
 GMM_interations = 100
 torch.manual_seed(42)
@@ -204,7 +204,7 @@ def main():
     if TRAIN_FLAG:
         train_model(train_loader=train_loader, all_loader=all_loader)
 
-    # plot_latent(iteration=mutual_iteration - 1, all_loader=all_loader)
+    plot_latent(iteration=mutual_iteration - 1, all_loader=all_loader)
     print("Reconstruct images")
     for i in range(10):
         models.decode_from_cluster(
