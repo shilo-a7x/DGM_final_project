@@ -19,4 +19,4 @@ The full explanation, background, methodology, and results are available in the 
 pip install torch torchvision scikit-learn matplotlib
 
 # Run training and sampling
-python main.py
+python code/main.py
