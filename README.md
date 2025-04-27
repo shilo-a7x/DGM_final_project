@@ -1,4 +1,4 @@
-# DGM_final_project
+# DGM final project
 Final project in Deep Generative Models course at BIU.
 
 # VAE with GMM Clustering
